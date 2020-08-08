@@ -169,7 +169,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 .banner {
        margin: 0 auto;
     text-align: center;
-    padding-top: 6em;
+    padding: 6em 3em;
 }
 .banner img {
        margin: 0 auto;
@@ -191,7 +191,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
     font-size:1em;
     text-transform: uppercase;
     color: #fff;
-    letter-spacing: 7px;
+    letter-spacing: 4px;
     margin: 2em 0;
 }
 /*--slider--*/
@@ -521,7 +521,7 @@ h3.w3l_head.two {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-       min-height: 690px;
+       min-height: 612px;
     padding-top: 9em;
 }
 .skill-agile h4 {
@@ -672,7 +672,7 @@ p.b_label {
 	    text-transform: uppercase;
     text-align: center;
     position: relative;
-    font-size: 2.2em;
+    font-size:15px;
     background-color: transparent;
     color: #44c7f4;
     padding: 2em 0 0.5em;
