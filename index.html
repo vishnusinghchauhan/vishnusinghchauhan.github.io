@@ -272,22 +272,40 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
  <div class="education" id="education two">
  		<div class="col-md-6 skills two">
 		<h3 class="w3l_head two">More Skills</h3>
-	     <div class="skill-agile">
+	    <div class="skill-agile">
+		    <div class="col-sm-4 abt-gd-left text-center">		   
+				<div id="demo-pie-5" class="pie-title-center" data-percent="60"> <span class="pie-value"></span> </div>
+				<h4>MeteorJs</h4>
+			</div>
+
 			<div class="col-sm-4 abt-gd-left text-center">
-			<div id="demo-pie-1" class="pie-title-center" data-percent="75"> <span class="pie-value"></span> </div>
-			<h4>REST API</h4>
+				<div id="demo-pie-1" class="pie-title-center" data-percent="75"> <span class="pie-value"></span> </div>
+				<h4>REST API</h4>
+			</div>
+
+			<div class="col-sm-4 abt-gd-left text-center">		   
+				<div id="demo-pie-2" class="pie-title-center" data-percent="80"> <span class="pie-value"></span> </div>
+				<h4>Redux</h4>
+			</div>
+			
+			<div class="clearfix"></div>
+			<br /> <br />
+
+			<div class="col-sm-4 abt-gd-left text-center">		   
+				<div id="demo-pie-4" class="pie-title-center" data-percent="90"> <span class="pie-value"></span> </div>
+				<h4>UI Design</h4>
+			</div>
+
+			<div class="col-sm-4 abt-gd-left text-center">		   
+				<div id="demo-pie-6" class="pie-title-center" data-percent="75"> <span class="pie-value"></span> </div>
+				<h4>JSON/Ajax</h4>
+			</div>
+
+			<div class="col-sm-4 abt-gd-left text-center">		   
+				<div id="demo-pie-3" class="pie-title-center" data-percent="65"> <span class="pie-value"></span> </div>
+				<h4>Git/AWS</h4>
+			</div>
 		</div>
-		
-		<div class="col-sm-4 abt-gd-left text-center">		   
-			<div id="demo-pie-3" class="pie-title-center" data-percent="65"> <span class="pie-value"></span> </div>
-			<h4>Git/AWS</h4>
-		</div>
-		<div class="col-sm-4 abt-gd-left text-center">		   
-			<div id="demo-pie-4" class="pie-title-center" data-percent="90"> <span class="pie-value"></span> </div>
-			<h4>UI Design</h4>
-		</div>
-		<div class="clearfix"></div>
-</div>
 		 </div>
 	    <div class="col-md-6 education-w3l">
 		     <h3 class="w3l_head three">My Experience</h3>
@@ -332,7 +350,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 				     </div>
 					 <div class="education-agile-w3l-info">
 					       <h4>UI Developer</h4>
-						  	<p>Noida</p>
+						  	<p>Delhi</p>
 				     </div>
 				      <div class="clearfix"></div>
 				  </div>
@@ -591,15 +609,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
                 }
             });
 
-            $('#demo-pie-2').pieChart({
-                barColor: '#44c7f4',
-                trackColor: '#fff',
-                lineCap: 'butt',
-                lineWidth: 8,
-                onStep: function (from, to, percent) {
-                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
-                }
-            });
+       
 
             $('#demo-pie-3').pieChart({
                 barColor: '#44c7f4',
@@ -611,7 +621,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
                 }
             });
 			
-			$('#demo-pie-4').pieChart({
+			$('#demo-pie-6').pieChart({
                 barColor: '#44c7f4',
                 trackColor: '#fff',
                 lineCap: 'square',
@@ -620,6 +630,35 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
                     $(this.element).find('.pie-value').text(Math.round(percent) + '%');
                 }
             });
+
+            $('#demo-pie-2').pieChart({
+                barColor: '#44c7f4',
+                trackColor: '#fff',
+                lineCap: 'butt',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+            $('#demo-pie-4').pieChart({
+                barColor: '#44c7f4',
+                trackColor: '#fff',
+                lineCap: 'butt',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+            $('#demo-pie-5').pieChart({
+                barColor: '#44c7f4',
+                trackColor: '#fff',
+                lineCap: 'butt',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
         });
     </script>
 <!-- skills -->	

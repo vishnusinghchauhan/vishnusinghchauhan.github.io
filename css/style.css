@@ -524,7 +524,7 @@ h3.w3l_head.two {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-       min-height: 612px;
+       min-height: 580px;
     padding-top: 2em;
 }
 .skill-agile h4 {
@@ -1161,9 +1161,7 @@ p.counter {
 		min-height:550px;
 		    padding-top: 5em;
 	}
-	.skills.two {
-		    min-height: 421px;
-	}
+
 	.agileits_portfolio_grid {
 		padding: 0 4px;
 		float: left;
@@ -1407,15 +1405,12 @@ p.counter {
 		margin-top: 1em;
 	}
 	.skills {
-		min-height: 467px;
 		padding-top: 3em;
 	}
 	.skill-agile h4 {
 		font-size: 1.1em;
 	}
-	.skills.two {
-		min-height: 356px;
-	}
+
 	.agileits_portfolio_grid {
 		padding: 0 4px;
 		float: left;
@@ -1475,9 +1470,7 @@ p.counter {
 	h3.w3l_head {
 		font-size: 2.5em;
 	}
-	.skills.two {
-		min-height: 324px;
-	}
+
 	.w3l_footer_pos p {
 		line-height: 1.8em;
 		padding: 0 3px;
