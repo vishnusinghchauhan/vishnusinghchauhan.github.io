@@ -500,7 +500,7 @@ h3.w3l_head.two {
     color: #fff;
 }
 .list-gds  h4 {
-    font-size:2em;
+    font-size:1.4em;
     margin: 0.5em 0;
     color: #44c7f4;
     text-transform: uppercase;
@@ -566,9 +566,8 @@ body .bar_group__bar.thin:last-child {
     margin-bottom: 0;
 }
 .third-border{
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
+      border-bottom: 1px solid #ddd;
+    padding-bottom: 17px;
 }
 .agileits_skills_grids,.wthree_team_grids{
     margin: 3em 0 0;
@@ -1054,8 +1053,9 @@ p.counter {
 	.education-w3l {
     padding: 6em 4em;
 	}
-
-
+	.skills {
+       min-height: 708px;
+	}
 	.banner h2 {
 		font-size: 3em;
 		letter-spacing: 6px;
@@ -1076,8 +1076,9 @@ p.counter {
 	}
 }
 @media (max-width:1280px){
-
-
+	.skills {
+		min-height: 696px;
+	}
 	#counter {
 		min-height: 400px;
 	}
@@ -1113,8 +1114,9 @@ p.counter {
 	.education-w3l {
 		padding: 3em 3em;
 	}
-
-
+	.skills {
+		min-height: 682px;
+	}
 	.nav > li > a {
 		position: relative;
 		display: block;
@@ -1155,10 +1157,12 @@ p.counter {
       font-size: 3em;
 	}
 	.skills {
-
+		min-height:550px;
 		    padding-top: 5em;
 	}
-
+	.skills.two {
+		    min-height: 421px;
+	}
 	.agileits_portfolio_grid {
 		padding: 0 4px;
 		float: left;
@@ -1402,12 +1406,15 @@ p.counter {
 		margin-top: 1em;
 	}
 	.skills {
+		min-height: 467px;
 		padding-top: 3em;
 	}
 	.skill-agile h4 {
 		font-size: 1.1em;
 	}
-
+	.skills.two {
+		min-height: 356px;
+	}
 	.agileits_portfolio_grid {
 		padding: 0 4px;
 		float: left;
@@ -1467,7 +1474,9 @@ p.counter {
 	h3.w3l_head {
 		font-size: 2.5em;
 	}
-
+	.skills.two {
+		min-height: 1010px;
+	}
 	.w3l_footer_pos p {
 		line-height: 1.8em;
 		padding: 0 3px;
@@ -1524,6 +1533,7 @@ p.counter {
 		margin-bottom: 10px;
 	}
 	.skills {
+	    min-height: 417px;
 		padding-top: 1em;
 		padding-bottom: 1em;
 	}
