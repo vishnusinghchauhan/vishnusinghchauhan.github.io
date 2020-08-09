@@ -1054,9 +1054,8 @@ p.counter {
 	.education-w3l {
     padding: 6em 4em;
 	}
-	.skills {
-       min-height: 708px;
-	}
+
+
 	.banner h2 {
 		font-size: 3em;
 		letter-spacing: 6px;
@@ -1077,9 +1076,8 @@ p.counter {
 	}
 }
 @media (max-width:1280px){
-	.skills {
-		min-height: 696px;
-	}
+
+
 	#counter {
 		min-height: 400px;
 	}
@@ -1115,9 +1113,8 @@ p.counter {
 	.education-w3l {
 		padding: 3em 3em;
 	}
-	.skills {
-		min-height: 682px;
-	}
+
+
 	.nav > li > a {
 		position: relative;
 		display: block;
@@ -1158,7 +1155,7 @@ p.counter {
       font-size: 3em;
 	}
 	.skills {
-		min-height:550px;
+
 		    padding-top: 5em;
 	}
 
@@ -1527,7 +1524,6 @@ p.counter {
 		margin-bottom: 10px;
 	}
 	.skills {
-	    min-height: 417px;
 		padding-top: 1em;
 		padding-bottom: 1em;
 	}
