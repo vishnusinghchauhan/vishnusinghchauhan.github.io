@@ -77,6 +77,9 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 .header {
     border-bottom: 1px solid #EAEAEA;
 }
+.border-bottom{
+  border-bottom: : 1px solid #ddd;
+}
 .navbar-default {
     background: none;
     border: none;
@@ -522,7 +525,7 @@ h3.w3l_head.two {
     -o-background-size: cover;
     -ms-background-size: cover;
        min-height: 612px;
-    padding-top: 9em;
+    padding-top: 2em;
 }
 .skill-agile h4 {
     font-size: 1.6em;
@@ -562,6 +565,11 @@ body .bar_group__bar.thin {
 body .bar_group__bar.thin:last-child {
     margin-bottom: 0;
 }
+.third-border{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
 .agileits_skills_grids,.wthree_team_grids{
     margin: 3em 0 0;
 }
@@ -584,11 +592,11 @@ p.b_label {
     width: 69%;
 }
 .education-w3l {
-    padding: 8em 4em;
+    padding: 3em 4em;
     background: #f3f2f2;
 }
 .education-agile-w3l-info h4 ,.education-agile-w3l-year h4{
-    font-size: 1.6em;
+    font-size: 1.2em;
     text-transform: uppercase;
     color: #333;
     letter-spacing: 2px;
